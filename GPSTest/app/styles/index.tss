@@ -1,0 +1,11 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"#startButton": {
+	top: 50
+}
+
+"#stopButton": {
+	top: 150
+}

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.bamchi.vibrate_test</id>
-    <name>VibrateTest</name>
+    <id>com.bamchi.gps_test</id>
+    <name>GPSTest</name>
     <version>1.0</version>
     <publisher>bamchi</publisher>
     <url/>
-    <description>undefined</description>
+    <description/>
     <copyright>2016 by bamchi</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>94e7c138-2faf-4e5d-9ddd-9e4c0379ea6a</guid>
+    <guid>77a761a5-8f58-4629-9000-ee649de5c5c2</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <ios>
         <plist>
@@ -59,5 +59,5 @@
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
-    <property name="appc-app-id" type="string">56a5e47e821bc81e0e01b830</property>
+    <property name="appc-app-id" type="string">56a5e8c39d5741e879203e53</property>
 </ti:app>

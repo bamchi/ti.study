@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<Button id="startButton" onClick="startButtonClick">GPS 시작</Button>
+		<Button id="stopButton" onClick="stopButtonClick">GPS 정지</Button>
+	</Window>
+</Alloy>
