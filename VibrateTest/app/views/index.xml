@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container">
+		<Button id="button" onClick="doClick">진동</Button>
+	</Window>
+</Alloy>
