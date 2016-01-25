@@ -1,0 +1,16 @@
+".container": {
+	backgroundColor: "white"
+}
+
+// "Button": {
+	// width: Ti.UI.SIZE,
+	// height: Ti.UI.SIZE
+// }
+
+"#button": {
+	top: 0,
+	height: 100,
+	font: {
+		fontSize: 12
+	}
+}

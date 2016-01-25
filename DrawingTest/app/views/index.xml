@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="container" class="container">
+		<Button id="button" onClick="doClick">Save to Image File.</Button>
+	</Window>
+</Alloy>
