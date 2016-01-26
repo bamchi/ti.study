@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<Button id="phoneCall" onClick="phoneCall">openURL로 전화걸기</Button>
+		<Button id="phoneCallIntent" onClick="phoneCallIntent">Intent로 전화걸기</Button>
+	</Window>
+</Alloy>
