@@ -1,0 +1,44 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#volume": {
+  top: 50,
+	font: {
+		fontSize: 16
+	}
+}
+
+"#startButton": {
+  top: 100,
+	font: {
+		fontSize: 16
+	}
+}
+
+"#stopButton": {
+  top: 150,
+	font: {
+		fontSize: 16
+	}
+}
+
+"#volumeUp": {
+  top: 200,
+	font: {
+		fontSize: 16
+	}
+}
+
+"#volumeDown": {
+  top: 250,
+	font: {
+		fontSize: 16
+	}
+}

@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+    <Label id="volume"></Label>
+		<Button id="startButton" onClick="playSound">사운드재생</Button>
+		<Button id="stopButton" onClick="stopSound">멈춤</Button>
+
+    <Button id="volumeUp" onClick="volumeUp">소리키우기</Button>
+    <Button id="volumeDown" onClick="volumeDown">소리키우기</Button>
+	</Window>
+</Alloy>
