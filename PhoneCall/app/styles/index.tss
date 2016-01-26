@@ -2,11 +2,6 @@
 	backgroundColor:"white"
 }
 
-"Button": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE
-}
-
 "#phoneCall": {
   top: 100,
 	font: {
@@ -16,6 +11,13 @@
 
 "#phoneCallIntent": {
   top: 150,
+	font: {
+		fontSize: 12
+	}
+}
+
+"#openWeb": {
+  top: 200,
 	font: {
 		fontSize: 12
 	}

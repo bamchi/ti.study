@@ -12,4 +12,8 @@ function phoneCallIntent(e) {
   Ti.Android.currentActivity.startActivity(intent);
 }
 
+function openWeb() {
+  Ti.Platform.openURL("http://google.com");
+}
+
 $.index.open();
