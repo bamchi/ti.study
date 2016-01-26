@@ -1,3 +1,6 @@
+// preventing sleep
+Ti.App.idleTimerDisabled = true;
+
 var number = 'tel:01032530135';
 
 function phoneCall(e) {

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app 
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>com.bamchi.pushwoosh</id>
+  <name>Pushwoosh</name>
+  <version>1.0</version>
+  <publisher>not specified</publisher>
+  <url>unspecified</url>
+  <description/>
+  <copyright>not specified</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>true</analytics>
+  <guid>21f8c6c4-d561-4ec6-9222-9df7926ad1f5</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <ios>
+    <plist>
+      <dict>
+        <key>UISupportedInterfaceOrientations~iphone</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationPortraitUpsideDown</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleDefault</string>
+      </dict>
+    </plist>
+  </ios>
+  <android xmlns:android="http://schemas.android.com/apk/res/android">
+    <manifest>
+      <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    </manifest>
+  </android>
+  <mobileweb>
+    <precache></precache>
+    <splash>
+      <enabled>true</enabled>
+      <inline-css-images>true</inline-css-images>
+    </splash>
+    <theme>default</theme>
+  </mobileweb>
+  <modules>
+    <module platform="commonjs">ti.cloud</module>
+    <module platform="android">com.pushwoosh.module</module>
+    <module platform="iphone">com.pushwoosh.module</module>
+  </modules>
+  <deployment-targets>
+    <target device="android">true</target>
+    <target device="ipad">true</target>
+    <target device="iphone">true</target>
+    <target device="mobileweb">true</target>
+    <target device="windows">true</target>
+  </deployment-targets>
+  <sdk-version>5.1.2.GA</sdk-version>
+  <plugins>
+    <plugin version="1.0">ti.alloy</plugin>
+  </plugins>
+  <property name="appc-app-id" type="string">56a712a0411b09160ef1b198</property>
+  <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+  <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+  <property name="acs-oauth-secret-development" type="string">vcasexqv0tLECsc33PJLH7yRKDhzHirX</property>
+  <property name="acs-oauth-key-development" type="string">ViAxpSCVBS3iFR0uKRjzpCkPuGVjjLt5</property>
+  <property name="acs-api-key-development" type="string">NvXouYoIrOY3lXdenqU72anPZijvbIaO</property>
+  <property name="acs-username-development" type="string">appc_app_user_dev</property>
+  <property name="acs-password-development" type="string">hokUW1WrpG4SDfX3Lx</property>
+  <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+  <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+  <property name="acs-oauth-secret-production" type="string">jE7AFyAox1sQDClBeGfJn6XFbQnvu1Zo</property>
+  <property name="acs-oauth-key-production" type="string">C175Uv6iJkIxrl6tI6TaEmFEkmxrqtHc</property>
+  <property name="acs-api-key-production" type="string">8Lut3SPlAvarFQFqBL77il6dz1taL25O</property>
+  <property name="acs-username-production" type="string">appc_app_user</property>
+  <property name="acs-password-production" type="string">PeJndui8JKiVckvGQv</property>
+  <property name="appc-org-id" type="string">100035966</property>
+  <property name="appc-creator-user-id" type="string">7260f282-b4a0-4723-936a-1fe67b193003</property>
+</ti:app>
