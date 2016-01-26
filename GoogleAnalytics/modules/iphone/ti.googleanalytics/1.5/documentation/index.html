@@ -1,0 +1,53 @@
+<h1>Google Analytics Module</h1>
+<h2>Description</h2>
+<p>Provides access to the Google Analytics Mobile SDK.</p>
+<h2>Accessing the Module</h2>
+<p>To access this module from JavaScript, you would do the following:</p>
+<pre><code>var GoogleAnalytics = require("ti.googleanalytics");
+</code></pre>
+<p>The variable is a reference to the Module object. <br />
+</p>
+<p>There's a simple CommonJS module simplifying the rather complex module API <a href="https://github.com/FokkeZB/UTiL/tree/master/ga">here</a>.</p>
+<h2>How to Learn More</h2>
+<p>This module conforms very closely to Google's Analytics SDKs for iOS and Android. As such, the documentation for these SDKs will help you
+understand how to use this module, and how to collect the analytics data that you want.</p>
+<p><a href="https://developers.google.com/analytics/devguides/collection/android/v3/">Android SDK Guide</a>
+<a href="https://developers.google.com/analytics/devguides/collection/ios/v3/">iOS SDK Guide</a></p>
+<h2>A Warning About Tracking IDs</h2>
+<p>Google Analytics Website Tracking IDs will NOT work with this module (because they don't work with the underlying Google SDK).
+Instead, you must generate new App specific Tracking IDs:
+ - Go to analytics.google.com.
+ - Sign in.
+ - Go to Admin &gt; Accounts &gt; Create New Account.
+ - Choose "App" beside "What would you like to track?"
+ - Create the account, and get the tracking ID.</p>
+<h2>Reference</h2>
+<h3><a href="tracker.html">Tracker</a> getTracker([String trackingName, ] String trackingId)</h3>
+<p>Gets a <a href="tracker.html">tracker</a>, based on the provided ID and optional name.</p>
+<h3><a href="tracker.html">Tracker</a> getDefaultTracker()</h3>
+<p>Returns the default <a href="tracker.html">tracker</a>. This is the first <a href="tracker.html">tracker</a> requested by the "getTracker" method during the 
+current app run.</p>
+<h3>void setDefaultTracker(<a href="tracker.html">Tracker</a> tracker)</h3>
+<p>Specifies which <a href="tracker.html">tracker</a> should be returned by the "getDefaultTracker" method.</p>
+<h3>void closeTracker(String trackingId)</h3>
+<p>Closes a <a href="tracker.html">tracker</a>, releasing any related resources it was using.</p>
+<h2>Properties</h2>
+<h3>bool dryRun</h3>
+<p>Use this to test your's app's interactions with Google Analytics. No data will be sent to Google.</p>
+<h3>bool optOut</h3>
+<p>If true, the user has decided to not let you collect analytics data. This property is NOT persistent, so you must set it each time your app
+loads.</p>
+<h3><a href="mapbuilder.html">MapBuilder</a> getMapBuilder()</h3>
+<p>Gets a reference to the <a href="mapbuilder.html">map builder</a>, which helps you send data to Google.</p>
+<h3><a href="fields.html">Fields</a> getFields()</h3>
+<p>Gets a reference to the <a href="fields.html">field constants</a>, which you will use when sending data to Google.</p>
+<h2>Usage</h2>
+<p>See example.</p>
+<h2>Module History</h2>
+<p>View the <a href="changelog.html">change log</a> for this module.</p>
+<h2>Author</h2>
+<p>Dawson Toth</p>
+<h2>Feedback and Support</h2>
+<p>Please direct all questions, feedback, and concerns to <a href="mailto:info@appcelerator.com?subject=Android%20Google%20Analytics%20Module">info@appcelerator.com</a>.</p>
+<h2>License</h2>
+<p>Copyright(c) 2010-2013 by Appcelerator, Inc. All Rights Reserved. Please see the LICENSE file included in the distribution for further details.</p>

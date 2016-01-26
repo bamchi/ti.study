@@ -1,0 +1,23 @@
+<h1>Map Builder</h1>
+<h2>Description</h2>
+<p>Makes it easier to build the data payload to send to Google.</p>
+<h2>Creation Methods</h2>
+<p>Call one of these methods first, followed by the normal methods further down in this file.</p>
+<h3>MapBuilder createAppView()</h3>
+<h3>MapBuilder createEvent(String category, String action, String label, Number value)</h3>
+<h3>MapBuilder createException(String exceptionDescription, Boolean fatal) {</h3>
+<h3>MapBuilder createItem(String transactionId, String name, String sku, String category, Double price, Long quantity, String currencyCode)</h3>
+<h3>MapBuilder createSocial(String network, String action, String target)</h3>
+<h3>MapBuilder createTiming(String category, Long intervalInMilliseconds, String name, String label)</h3>
+<h3>MapBuilder createTransaction(String transactionId, String affiliation, Double revenue, Double tax, Double shipping, String currencyCode)</h3>
+<h2>Methods</h2>
+<h3>String get(String paramName)</h3>
+<p>Returns the value of the specified parameter.</p>
+<h3>MapBuilder set(Field paramName, String paramValue)</h3>
+<p>Sets the specified parameter and value, and returns the MapBuilder to allow for method chaining.</p>
+<h3>MapBuilder setAll(Dictionary args)</h3>
+<p>Sets all of the specified key-value pairs in the JavaScript dictionary, and returns the MapBuilder to allow for method chaining.</p>
+<h3>MapBuilder setCampaignParamsFromUrl(String utmParams)</h3>
+<p>Sets campaign parameters from the specified URL.</p>
+<h3>Dictionary build()</h3>
+<p>Turns the MapBuilder in to a normal JavaScript Dictionary of values that can be sent via Tracker's "send" method.</p>

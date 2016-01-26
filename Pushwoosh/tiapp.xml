@@ -56,6 +56,8 @@
     <module platform="commonjs">ti.cloud</module>
     <module platform="android">com.pushwoosh.module</module>
     <module platform="iphone">com.pushwoosh.module</module>
+    <module platform="android">ti.googleanalytics</module>
+    <module platform="iphone">ti.googleanalytics</module>
   </modules>
   <deployment-targets>
     <target device="android">true</target>

@@ -1,0 +1,12 @@
+<h1>Tracker</h1>
+<h2>Description</h2>
+<p>Tracks analytics data.</p>
+<h2>Methods</h2>
+<h3>String getName()</h3>
+<p>Returns the name of the tracker. If no name was specified when you retrieved the tracker, then the trackingId will be returned.</p>
+<h3>String get(Field key)</h3>
+<p>Returns the default value for the specified field.</p>
+<h3>void set(Field key, String value)</h3>
+<p>Sets the default value for the specified field. All "sends" will contain this.</p>
+<h3>void send(Dictionary args)</h3>
+<p>Sends data to the server. Use the Map Builder to make it easier to create the arguments for this method.</p>

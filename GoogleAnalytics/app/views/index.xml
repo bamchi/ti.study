@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<Button id="button1" onClick="doClick1">Screen</Button>
+		<Button id="button2" onClick="doClick2">Event1</Button>
+		<Button id="button3" onClick="doClick3">Event2</Button>
+	</Window>
+</Alloy>

@@ -1,0 +1,24 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"#button1": {
+	top: 100,
+	font: {
+		fontSize: 12
+	}
+}
+
+"#button2": {
+	top: 150,
+	font: {
+		fontSize: 12
+	}
+}
+
+"#button3": {
+	top: 200,
+	font: {
+		fontSize: 12
+	}
+}
