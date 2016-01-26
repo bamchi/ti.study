@@ -1,0 +1,7 @@
+<Alloy>
+  <Window class="container">
+    <Button id="download" onClick="startDownload">다운로드 & 업데이트</Button>
+    <ProgressBar id="progress"></ProgressBar>
+    <!--<Label>업데이트완료!</Label>-->
+  </Window>
+</Alloy>

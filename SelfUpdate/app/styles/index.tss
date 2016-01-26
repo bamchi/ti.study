@@ -1,0 +1,26 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#download": {
+	top: 50
+}
+
+"#progress": {
+	width:200,
+	height:50,
+	min:0,
+	max:1,
+	value:0,
+	style:Titanium.UI.iPhone.ProgressBarStyle.PLAIN,
+	top:10,
+	message:'Downloading image',
+	font:{fontSize:12, fontWeight:'bold'},
+	color:'#888'
+}
