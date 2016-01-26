@@ -1,7 +1,7 @@
 // preventing sleep
 Ti.App.idleTimerDisabled = true;
 
-var number = 'tel:01032530135';
+var number = 'tel:114';
 
 function phoneCall(e) {
   Ti.Platform.openURL(number);
